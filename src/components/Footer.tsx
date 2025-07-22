@@ -131,7 +131,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-muted-foreground">
-              © 2024 Forestech, an initiative of Myristika. All rights reserved.
+              © 2025 Forestech, an initiative of Myristika. All rights reserved.
             </div>
             
             {/* Social Links */}
