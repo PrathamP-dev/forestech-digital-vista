@@ -95,15 +95,11 @@ const Footer = () => {
               <div className="space-y-3 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <Mail size={16} />
-                  <span>hello@forestech.org</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone size={16} />
-                  <span>+1 (555) 123-4567</span>
+                  <span>contact@myristika.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin size={16} />
-                  <span>San Francisco, CA</span>
+                  <span>New Delhi, IN</span>
                 </div>
               </div>
             </div>
@@ -156,15 +152,30 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <a href="#privacy" className="hover:text-primary transition-smooth">
+              <button 
+                onClick={() => window.open('/privacy-policy', '_blank')}
+                className="hover:text-primary transition-smooth"
+              >
                 Privacy Policy
-              </a>
-              <a href="#terms" className="hover:text-primary transition-smooth">
-                Terms of Service
-              </a>
-              <a href="#cookies" className="hover:text-primary transition-smooth">
+              </button>
+              <button 
+                onClick={() => window.open('/editorial-policy', '_blank')}
+                className="hover:text-primary transition-smooth"
+              >
+                Editorial Policy
+              </button>
+              <button 
+                onClick={() => window.open('/cookie-policy', '_blank')}
+                className="hover:text-primary transition-smooth"
+              >
                 Cookie Policy
-              </a>
+              </button>
+              <button 
+                onClick={() => window.open('/rss-terms', '_blank')}
+                className="hover:text-primary transition-smooth"
+              >
+                RSS Terms
+              </button>
             </div>
           </div>
         </div>
